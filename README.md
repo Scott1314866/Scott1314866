@@ -68,8 +68,6 @@
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Scott1314866&theme=tokyo-night&hide_border=true&area=true&radius=8" width="100%" alt="GitHub activity graph"/>
-<img src="https://github-readme-stats.vercel.app/api?username=Scott1314866&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="165" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Scott1314866&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top languages"/>
 </div>
 
 ## 🐍 Contribution snake
