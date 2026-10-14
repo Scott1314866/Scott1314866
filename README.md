@@ -2,13 +2,12 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,45:414868,100:7aa2f7&height=220&section=header&text=Scott%20Cui&fontSize=68&fontColor=c0caf5&desc=From%20Industrial%20Automation%20to%20Intelligent%20Systems&descSize=20&descAlignY=78" width="100%"/>
 
-<a href="https://github.com/Scott1314866"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=700&color=7AA2F7&center=true&vCenter=true&width=780&lines=AI+%2F+NLP+Engineer;LLM+%C2%B7+RAG+%C2%B7+AI+Agents;Building+Mini-Scott-Claude+from+scratch;PyTorch+%C2%B7+Transformer+%C2%B7+LangGraph;Learn+deeply+%C2%B7+Build+openly+%C2%B7+Ship+practically" alt="Typing introduction" /></a>
+<a href="https://github.com/Scott1314866"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=700&color=7AA2F7&center=true&vCenter=true&width=780&lines=AI+%2F+NLP+Engineer;LLM+%C2%B7+RAG+%C2%B7+AI+Agents;Building+Component+Foundry;From+Datasheets+to+STEP+%C2%B7+PCB+%C2%B7+Symbols;Learning+Agent+Frameworks+from+Scratch" alt="Typing introduction" /></a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Scott1314866&style=for-the-badge&color=7aa2f7&label=PROFILE+VIEWS" alt="Profile views"/>
 <a href="https://github.com/Scott1314866?tab=followers"><img src="https://img.shields.io/github/followers/Scott1314866?style=for-the-badge&logo=github&labelColor=1a1b27&color=7aa2f7" alt="Followers"/></a>
-<img src="https://img.shields.io/badge/Focus-LLM%20%26%20Agents-9ece6a?style=for-the-badge&labelColor=1a1b27" alt="Focus"/>
+<img src="https://img.shields.io/badge/Focus-Agents%20%26%20Industrial%20AI-9ece6a?style=for-the-badge&labelColor=1a1b27" alt="Focus"/>
 <img src="https://img.shields.io/badge/2026-Building%20in%20Public-ff9e64?style=for-the-badge&labelColor=1a1b27" alt="2026 focus"/>
 
 </div>
@@ -19,11 +18,12 @@
 - 🏭 Bringing an **industrial automation and injection-molding background** into AI engineering
 - 🧠 Learning the foundations deeply: **PyTorch, Transformer, BERT, model fine-tuning and compression**
 - 🔎 Building practical **RAG pipelines**, from document processing and hybrid retrieval to reranking
+- 📐 Building **Component Foundry**, a multi-agent workbench that turns component drawings and datasheets into STEP models, PCB footprints and schematic symbols
 - 🛠 Creating **Mini-Scott-Claude** from scratch to understand ReAct, tool calling, memory, MCP and multi-agent systems
-- 🚀 Interested in production AI: model serving, Flask APIs, Docker, Milvus, Redis and reliable agent workflows
+- 🚀 Interested in production AI: model serving, FastAPI / Flask, Docker, PostgreSQL, Milvus, Redis and recoverable agent workflows
 - 🌏 Long-term goal: build intelligent systems that solve real industrial and business problems
 
-> 🎯 **2026 focus** — grow from using AI frameworks to understanding and building their core mechanisms, while shipping a portfolio of deployable NLP and Agent projects.
+> 🎯 **2026 focus** — grow from using AI frameworks to understanding and building their core mechanisms, while building practical industrial tools with traceable inputs, human review and recoverable workflows.
 
 ## 🚀 My journey
 
@@ -34,9 +34,43 @@
 | 📰 **NLP engineering** | News text classification with TF-IDF, Random Forest and BERT fine-tuning |
 | 🔎 **LLM applications** | RAG, hybrid retrieval, reranking, prompt engineering and knowledge bases |
 | 🤖 **Agent systems** | Mini-Scott-Claude, ReAct, tools, memory, permissions, MCP and multi-agent workflows |
-| 🚀 **Next** | Production-ready AI systems for industrial and enterprise scenarios |
+| 📐 **Engineering workflows** | Component Foundry: drawing recognition, parameter review, CAD generation and native Cadence execution |
+| 🚀 **Next** | More reliable AI systems for industrial and enterprise scenarios |
 
 ## 🧱 Featured builds
+
+### 📐 Component Foundry · Electronic component engineering
+
+**Drawings and datasheets → parameter review → STEP models, PCB footprints and schematic symbols.**
+
+[Component Foundry](https://github.com/Scott1314866/Multi-Agents-For-Electronic-Components) brings three Agent workflows into one engineering workbench. It preserves source evidence, operator corrections and task checkpoints, and supports local or SSH execution on Windows devices running Cadence.
+
+<div align="center">
+<p>
+<img src="https://img.shields.io/badge/STEP-CadQuery-7aa2f7?style=flat-square&labelColor=1a1b27" alt="STEP / CadQuery" />
+<img src="https://img.shields.io/badge/PCB-Allegro-9ece6a?style=flat-square&labelColor=1a1b27" alt="PCB / Allegro" />
+<img src="https://img.shields.io/badge/Symbol-Capture-bb9af7?style=flat-square&labelColor=1a1b27" alt="Symbol / Capture" />
+<img src="https://img.shields.io/badge/Status-Engineering%20Preview-ff9e64?style=flat-square&labelColor=1a1b27" alt="Engineering preview" />
+</p>
+<table>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/Scott1314866/Multi-Agents-For-Electronic-Components#previews"><img src="https://raw.githubusercontent.com/Scott1314866/Scott1314866/main/assets/step-sot223-envelope.png" width="100%" alt="SOT223 STEP envelope preview with three narrow leads and one wide tab" /></a>
+<p><strong>STEP · Asymmetric lead layouts</strong><br /><sub>Independent counts and dimensions on each side</sub></p>
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/Scott1314866/Multi-Agents-For-Electronic-Components#previews"><img src="https://raw.githubusercontent.com/Scott1314866/Scott1314866/main/assets/pcb-round-preview.png" width="100%" alt="Generated PCB preview with fifteen circular pads, solder mask and pin numbers" /></a>
+<p><strong>PCB · Circular pad arrays</strong><br /><sub>Per-pad coordinates, dimensions and pin numbers</sub></p>
+</td>
+</tr>
+</table>
+</div>
+
+These are actual generated previews. PCB parameter editing also provides a live top-view preview; STEP views appear after model generation. The project is an engineering preview, with supported package families and known validation limits documented in the repository.
+
+→ [Explore the workbench](https://github.com/Scott1314866/Multi-Agents-For-Electronic-Components#readme) · [Setup & API guide](https://github.com/Scott1314866/Multi-Agents-For-Electronic-Components/blob/main/docs/getting-started.md)
+
+### 🛠 More projects
 
 <div align="center">
 <table>
@@ -48,6 +82,18 @@
 <td align="center" width="50%"><a href="https://github.com/Scott1314866/ocr-ai-project"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Scott1314866/ocr-ai-project/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark"><img src="https://socialify.git.ci/Scott1314866/ocr-ai-project/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Light" alt="OCR AI Project" width="100%"></picture></a></td>
 <td align="center" width="50%"><a href="https://gitee.com/pyscottcui/ai-newspaper-text-classification"><img src="https://img.shields.io/badge/AI%20News%20Text%20Classification-TF--IDF%20%7C%20Random%20Forest%20%7C%20BERT-c0caf5?style=for-the-badge&labelColor=1a1b27" alt="AI News Text Classification"/><br/><br/><b>AI News Text Classification</b><br/><sub>Classical ML, BERT fine-tuning and Flask deployment</sub></a></td>
 </tr>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/Scott1314866/Industrial-RAG-System"><b>🏭 Industrial RAG System</b></a>
+<p>Document-based troubleshooting for injection-molding equipment.</p>
+<sub>FastAPI · MySQL / BM25 · Milvus · Streaming answers</sub>
+</td>
+<td align="center" width="50%">
+<b>🧭 From foundations to engineering</b>
+<p>Explore NLP experiments, retrieval systems and Agent workflows in my repositories.</p>
+<a href="https://github.com/Scott1314866?tab=repositories">Browse all repositories →</a>
+</td>
+</tr>
 </table>
 </div>
 
@@ -56,18 +102,21 @@
 <div align="center">
 <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,flask&perline=6" alt="AI and backend stack"/>
 <br/>
-<img src="https://skillicons.dev/icons?i=docker,redis,mysql,linux,git,github&perline=6" alt="Infrastructure stack"/>
+<img src="https://skillicons.dev/icons?i=docker,postgres,redis,mysql,linux,git,github&perline=7" alt="Infrastructure stack"/>
 <br/><br/>
 <img src="https://img.shields.io/badge/LLM-Transformer%20%7C%20BERT%20%7C%20Fine--tuning-7aa2f7?style=flat-square&labelColor=1a1b27" alt="LLM"/>
 <img src="https://img.shields.io/badge/RAG-Milvus%20%7C%20BM25%20%7C%20Reranker-9ece6a?style=flat-square&labelColor=1a1b27" alt="RAG"/>
 <img src="https://img.shields.io/badge/Agents-LangChain%20%7C%20LangGraph%20%7C%20MCP-bb9af7?style=flat-square&labelColor=1a1b27" alt="Agents"/>
-<img src="https://img.shields.io/badge/Deployment-ONNX%20%7C%20Flask%20%7C%20Docker-ff9e64?style=flat-square&labelColor=1a1b27" alt="Deployment"/>
+<img src="https://img.shields.io/badge/Engineering-PaddleOCR%20%7C%20CadQuery%20%7C%20Cadence-7aa2f7?style=flat-square&labelColor=1a1b27" alt="Engineering tools"/>
+<img src="https://img.shields.io/badge/Deployment-ONNX%20%7C%20FastAPI%20%7C%20Docker-ff9e64?style=flat-square&labelColor=1a1b27" alt="Deployment"/>
 </div>
 
 ## 📈 GitHub activity
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Scott1314866&theme=tokyo-night&hide_border=true&area=true&radius=8" width="100%" alt="GitHub activity graph"/>
+<a href="https://github.com/Scott1314866/Multi-Agents-For-Electronic-Components/commits/main/"><img src="https://img.shields.io/github/last-commit/Scott1314866/Multi-Agents-For-Electronic-Components/main?style=for-the-badge&label=Component%20Foundry&labelColor=1a1b27&color=7aa2f7" alt="Component Foundry latest commit" /></a>
+<a href="https://github.com/Scott1314866/Mini-Scott-Claude/commits/"><img src="https://img.shields.io/github/last-commit/Scott1314866/Mini-Scott-Claude?style=for-the-badge&label=Mini--Scott--Claude&labelColor=1a1b27&color=9ece6a" alt="Mini-Scott-Claude latest commit" /></a>
+<p><a href="https://github.com/Scott1314866?tab=repositories">Browse repositories</a> · <a href="https://github.com/Scott1314866">View contributions</a></p>
 </div>
 
 ## 🐍 Contribution snake
